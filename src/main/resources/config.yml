@@ -1,0 +1,20 @@
+# StrafeRules: turn off Strafe Client modules you don't allow on your server.
+# Source code (AGPL-3.0-or-later): https://github.com/creeperdiamonds/strafe-rules
+# Every module ID is listed at https://strafeclient.com/modules
+#
+# Players on Strafe see the module greyed out as "BLOCKED" and can't switch it back on while they're here.
+# Modules come back as soon as they leave. Use StrafeRules OR Basalt's client-integration, not both.
+
+# Turned off for everyone on the server.
+# Example: [perspective, brightness]
+blocked-modules: []
+
+# Extra modules turned off in specific worlds (added to the list above).
+# Example:
+# worlds:
+#   pvp_arena: [zoom, cps]
+worlds: {}
+
+# Bypass permissions (off by default, even for ops):
+#   straferules.bypass          keeps every module on
+#   straferules.bypass.<id>     keeps just that module on, e.g. straferules.bypass.zoom

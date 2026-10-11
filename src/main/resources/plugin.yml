@@ -1,0 +1,100 @@
+name: StrafeRules
+version: ${project.version}
+main: com.creeperdiamonds.straferules.StrafeRulesPlugin
+api-version: '1.13'
+author: Creeperdiamonds Studios
+description: Turns off Strafe Client modules you don't allow on your server.
+website: https://github.com/creeperdiamonds/strafe-rules
+commands:
+  straferules:
+    description: Reload the config or list blocked Strafe modules.
+    usage: /straferules <reload|list>
+    permission: straferules.admin
+permissions:
+  straferules.admin:
+    description: Use /straferules.
+    default: op
+  straferules.bypass:
+    description: Keep every Strafe module on (e.g. staff).
+    default: false
+    children:
+      straferules.bypass.fps: true
+      straferules.bypass.cps: true
+      straferules.bypass.keystrokes: true
+      straferules.bypass.armorstatus: true
+      straferules.bypass.potioneffects: true
+      straferules.bypass.coordinates: true
+      straferules.bypass.direction: true
+      straferules.bypass.ping: true
+      straferules.bypass.time: true
+      straferules.bypass.systemresources: true
+      straferules.bypass.serveraddress: true
+      straferules.bypass.speedmeter: true
+      straferules.bypass.playtime: true
+      straferules.bypass.zoom: true
+      straferules.bypass.perspective: true
+      straferules.bypass.brightness: true
+      straferules.bypass.togglesprint: true
+      straferules.bypass.lowfire: true
+      straferules.bypass.skinnedtotem: true
+      straferules.bypass.tinytotem: true
+  straferules.bypass.fps:
+    description: Keep the Strafe module 'fps' on even when it's blocked.
+    default: false
+  straferules.bypass.cps:
+    description: Keep the Strafe module 'cps' on even when it's blocked.
+    default: false
+  straferules.bypass.keystrokes:
+    description: Keep the Strafe module 'keystrokes' on even when it's blocked.
+    default: false
+  straferules.bypass.armorstatus:
+    description: Keep the Strafe module 'armorstatus' on even when it's blocked.
+    default: false
+  straferules.bypass.potioneffects:
+    description: Keep the Strafe module 'potioneffects' on even when it's blocked.
+    default: false
+  straferules.bypass.coordinates:
+    description: Keep the Strafe module 'coordinates' on even when it's blocked.
+    default: false
+  straferules.bypass.direction:
+    description: Keep the Strafe module 'direction' on even when it's blocked.
+    default: false
+  straferules.bypass.ping:
+    description: Keep the Strafe module 'ping' on even when it's blocked.
+    default: false
+  straferules.bypass.time:
+    description: Keep the Strafe module 'time' on even when it's blocked.
+    default: false
+  straferules.bypass.systemresources:
+    description: Keep the Strafe module 'systemresources' on even when it's blocked.
+    default: false
+  straferules.bypass.serveraddress:
+    description: Keep the Strafe module 'serveraddress' on even when it's blocked.
+    default: false
+  straferules.bypass.speedmeter:
+    description: Keep the Strafe module 'speedmeter' on even when it's blocked.
+    default: false
+  straferules.bypass.playtime:
+    description: Keep the Strafe module 'playtime' on even when it's blocked.
+    default: false
+  straferules.bypass.zoom:
+    description: Keep the Strafe module 'zoom' on even when it's blocked.
+    default: false
+  straferules.bypass.perspective:
+    description: Keep the Strafe module 'perspective' on even when it's blocked.
+    default: false
+  straferules.bypass.brightness:
+    description: Keep the Strafe module 'brightness' on even when it's blocked.
+    default: false
+  straferules.bypass.togglesprint:
+    description: Keep the Strafe module 'togglesprint' on even when it's blocked.
+    default: false
+  straferules.bypass.lowfire:
+    description: Keep the Strafe module 'lowfire' on even when it's blocked.
+    default: false
+  straferules.bypass.skinnedtotem:
+    description: Keep the Strafe module 'skinnedtotem' on even when it's blocked.
+    default: false
+  straferules.bypass.tinytotem:
+    description: Keep the Strafe module 'tinytotem' on even when it's blocked.
+    default: false
