@@ -54,7 +54,7 @@ public final class StrafeRulesPlugin extends JavaPlugin implements Listener {
             "fps", "cps", "keystrokes", "armorstatus", "potioneffects", "coordinates", "direction", "ping", "time",
             "systemresources", "serveraddress", "speedmeter", "playtime",
             "zoom", "perspective", "brightness", "togglesprint",
-            "lowfire", "skinnedtotem", "tinytotem")));
+            "lowfire", "skinnedtotem", "tinytotem", "crosshair", "itemview")));
 
     @Override
     public void onEnable() {

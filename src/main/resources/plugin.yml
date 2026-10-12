@@ -38,6 +38,8 @@ permissions:
       straferules.bypass.lowfire: true
       straferules.bypass.skinnedtotem: true
       straferules.bypass.tinytotem: true
+      straferules.bypass.crosshair: true
+      straferules.bypass.itemview: true
   straferules.bypass.fps:
     description: Keep the Strafe module 'fps' on even when it's blocked.
     default: false
@@ -97,4 +99,10 @@ permissions:
     default: false
   straferules.bypass.tinytotem:
     description: Keep the Strafe module 'tinytotem' on even when it's blocked.
+    default: false
+  straferules.bypass.crosshair:
+    description: Keep the Strafe module 'crosshair' on even when it's blocked.
+    default: false
+  straferules.bypass.itemview:
+    description: Keep the Strafe module 'itemview' on even when it's blocked.
     default: false
