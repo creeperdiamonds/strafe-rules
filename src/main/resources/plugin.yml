@@ -40,6 +40,8 @@ permissions:
       straferules.bypass.tinytotem: true
       straferules.bypass.crosshair: true
       straferules.bypass.itemview: true
+      straferules.bypass.ownnametag: true
+      straferules.bypass.minimap: true
   straferules.bypass.fps:
     description: Keep the Strafe module 'fps' on even when it's blocked.
     default: false
@@ -105,4 +107,10 @@ permissions:
     default: false
   straferules.bypass.itemview:
     description: Keep the Strafe module 'itemview' on even when it's blocked.
+    default: false
+  straferules.bypass.ownnametag:
+    description: Keep the Strafe module 'ownnametag' on even when it's blocked.
+    default: false
+  straferules.bypass.minimap:
+    description: Keep the Strafe module 'minimap' on even when it's blocked.
     default: false
