@@ -52,7 +52,7 @@ public final class StrafeRulesPlugin extends JavaPlugin implements Listener {
     /** Every module ID in Strafe Client (keep in sync with the client and strafeclient.com/modules). */
     static final Set<String> MODULES = Collections.unmodifiableSet(new HashSet<String>(Arrays.asList(
             "fps", "cps", "keystrokes", "armorstatus", "potioneffects", "coordinates", "direction", "ping", "time",
-            "systemresources", "serveraddress", "speedmeter", "playtime",
+            "systemresources", "serveraddress", "speedmeter", "playtime", "timer",
             "zoom", "perspective", "brightness", "togglesprint",
             "lowfire", "skinnedtotem", "tinytotem", "crosshair", "itemview", "ownnametag", "minimap")));
 

@@ -31,6 +31,7 @@ permissions:
       straferules.bypass.serveraddress: true
       straferules.bypass.speedmeter: true
       straferules.bypass.playtime: true
+      straferules.bypass.timer: true
       straferules.bypass.zoom: true
       straferules.bypass.perspective: true
       straferules.bypass.brightness: true
@@ -80,6 +81,8 @@ permissions:
     default: false
   straferules.bypass.playtime:
     description: Keep the Strafe module 'playtime' on even when it's blocked.
+  straferules.bypass.timer:
+    description: Keep the Strafe module 'timer' on even when it's blocked.
     default: false
   straferules.bypass.zoom:
     description: Keep the Strafe module 'zoom' on even when it's blocked.
